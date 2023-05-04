@@ -1,0 +1,46 @@
+
+    <nav class="nav navbar fixed-top navbar-nav bg-body-tertiary navbar-expand-lg bg-light navbar-light">
+    <div class="container">
+        <a href="{% url "homepage" %}" class="navbar-brand justify-content-left">
+                 <img src="{% static "main/main.jpg" %}" width="35" height="35" class="d-inline-block align-top" alt="logo">
+                 <span class="align-bottom"><strong>  Welcome</strong></span>
+        </a>
+    <button class="navbar-toggler justify-content-end" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon align-right"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+        <ul class="nav nav-pills justify-content-end navbar-nav" >
+
+        <li class="nav-item">
+             <a href="/learn/english/" class="nav-link" href="/learn/">
+                Навчатись
+             </a>
+         </li>
+        <li class="nav-item">
+            <a class="nav-link " href="/rail_ways/">Працювати</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled"  href="#">Писати</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link " href="/blog/">Читати</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link disabled" href="#">Дивитись</a>
+        </li>
+        <li class="nav-item">
+            <a href="/weather/" class="nav-link" >
+                            Гуляти
+             </a>
+         </li>
+        <li class="nav-item">
+             <a href="https://www.instagram.com/p/CMg-iu_hF-0/" class="nav-link" target="_blank">
+                REST
+             </a>
+        </li>
+</div>
+
+        </ul>
+    </div>
+  </nav>
